@@ -1,0 +1,260 @@
+*
+{
+    direction: rtl;
+    font-family:  'Dosis', sans-serif;
+
+}
+body
+{
+    background-color: #f6f6f6;
+}
+nav
+{
+    background-color: hsla(0,0%,100%,.8);
+
+    box-shadow: 0 3px 6px rgb(79 43 121 / 37%);
+}
+.navbar-brand
+{
+    font-size: 40px;
+    font-weight: 600;
+    color: #41085c;
+}
+.navbar-brand:hover
+{
+    color: #41085c;
+}
+.nav-link
+{
+    font-size: 20px;
+    color: #41085c;
+    font-weight: 500;
+   
+}
+.nav-link:hover
+{
+    color: #41085c;
+}
+
+.navbar-toggler-icon
+{
+    color: #41085c;
+    font-size: 30px
+}
+
+.carousel-item .disc
+{
+    position: absolute;
+    top: 50%;
+    right: 30%;
+    text-align: right;
+ 
+    color: white;
+}
+.disc h2
+{
+    font-size: 60px;
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+.disc p
+{
+    font-size: 30px;
+    font-weight: 400;
+}
+.btn-color
+{
+    color: white;
+    background-color: #41085c;
+    padding: 5px 15px;
+    border-radius: 42px;
+    border: 2px solid #41085c;
+    font-size: 20px;
+    transition: 1s all;
+    font-weight: 500;
+}
+.btn-color:hover
+{
+color: #41085c;
+background-color: #fff;
+
+}
+
+.section1-part1 h2
+{
+    font-size: 50px;
+    color: #41085c;
+}
+.section1-part1 p
+{
+    color: #72849a;
+    font-size: 20px;
+}
+.sectio2-title h2
+{
+    text-align: center;
+    color: #41085c;
+    font-size: 50px;
+  
+
+}
+
+.card
+{
+    border-radius: 20px;
+    transition: all 1s;
+}
+.card h3
+{
+    color: #41085c;
+    font-size: 30px;
+}
+.card p
+{
+    font-size: 18px;
+}
+.card:hover 
+{
+background-color: #41085c;
+}
+.card:hover h3{
+    color: #fff;
+}
+.card:hover p 
+{
+    color: #72849a;
+}
+.section3 h3
+{
+    text-align: center;
+    color: #41085c;
+    font-size: 50px;
+    padding: 20px;
+
+}
+
+#demo {
+    background: linear-gradient(112deg, #ffffff 50%, antiquewhite 50%);
+    max-width: 900px;
+    margin: auto
+}
+
+.carousel-caption {
+    position: initial;
+    z-index: 10;
+    padding: 5rem 8rem;
+    color: rgba(78, 77, 77, 0.856);
+    text-align: center;
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 2rem
+}
+
+
+
+
+
+
+
+
+
+.carousel-caption img {
+    width: 6rem;
+    border-radius: 5rem;
+    margin-top: 2rem
+}
+
+
+    .carousel-caption img {
+        width: 4rem;
+        border-radius: 4rem;
+        margin-top: 1rem
+    }
+
+
+#image-caption {
+    font-style: normal;
+    font-size: 1rem;
+    margin-top: 0.5rem
+}
+#demo > a.carousel-control-next > i,
+#demo > a.carousel-control-prev > i
+{
+    color: #72849a;
+}
+
+
+
+footer
+{
+    background-color: #41085c;
+}
+.footer-part1 p
+{
+    font-size: 18px;
+}
+.footer-part2 li
+{
+    font-size: 18px;
+    padding-top: 20px;
+}
+.footer-part3 a
+{
+    font-size: 20px ;
+    color: #fff;
+    text-decoration: none;
+    padding-left: 30px;
+}
+.copyright 
+{
+    color: #fff;
+    text-align: center;
+}
+
+    
+
+@media(max-width:767px) {
+    .carousel-item .disc
+    {
+        left: 40px;
+        top: 40%;
+    }
+    body > .section1 > div > div
+    {
+        flex-direction: column-reverse;
+    }
+    i {
+        padding: 0.8rem
+    }
+
+
+.carousel-control-prev {
+    justify-content: flex-start
+}
+
+.carousel-control-next {
+    justify-content: flex-end
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    transition: none;
+    opacity: unset
+}
+    .carousel-caption {
+        position: initial;
+        z-index: 10;
+        padding: 3rem 2rem;
+        color: rgba(78, 77, 77, 0.856);
+        text-align: center;
+        font-size: 0.7rem;
+        font-style: italic;
+        font-weight: bold;
+        line-height: 1.5rem
+    }
+    #navbarSupportedContent > ul
+    {
+        text-align: right;
+    }
+}
